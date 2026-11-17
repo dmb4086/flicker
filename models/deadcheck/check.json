@@ -1,0 +1,105 @@
+{
+ "schema": 1,
+ "veto_p": 0.001,
+ "stretch_map": {
+  "game": "BAR-ATH",
+  "n_frames": 199319
+ },
+ "stretches": [
+  {
+   "name": "1-05:00",
+   "start": 18685,
+   "stop": 26185,
+   "head": "fold-00.joblib",
+   "tau": 0.5
+  },
+  {
+   "name": "1-10:00",
+   "start": 26185,
+   "stop": 41185,
+   "head": "fold-01.joblib",
+   "tau": 0.5
+  },
+  {
+   "name": "1-20:00",
+   "start": 41185,
+   "stop": 56185,
+   "head": "fold-02.joblib",
+   "tau": 0.5
+  },
+  {
+   "name": "1-30:00",
+   "start": 56185,
+   "stop": 71185,
+   "head": "fold-03.joblib",
+   "tau": 0.5
+  },
+  {
+   "name": "1-40:00",
+   "start": 71185,
+   "stop": 90652,
+   "head": "fold-04.joblib",
+   "tau": 0.5
+  },
+  {
+   "name": "2-00:00",
+   "start": 110808,
+   "stop": 121242,
+   "head": "fold-05.joblib",
+   "tau": 0.4
+  },
+  {
+   "name": "2-05:00",
+   "start": 121242,
+   "stop": 136242,
+   "head": "fold-06.joblib",
+   "tau": 0.4
+  },
+  {
+   "name": "2-15:00",
+   "start": 136242,
+   "stop": 151242,
+   "head": "fold-07.joblib",
+   "tau": 0.5
+  },
+  {
+   "name": "2-25:00",
+   "start": 151242,
+   "stop": 166242,
+   "head": "fold-08.joblib",
+   "tau": 0.5
+  },
+  {
+   "name": "2-35:00",
+   "start": 166242,
+   "stop": 181242,
+   "head": "fold-09.joblib",
+   "tau": 0.5
+  },
+  {
+   "name": "2-45:00",
+   "start": 181242,
+   "stop": 190198,
+   "head": "fold-10.joblib",
+   "tau": 0.5
+  }
+ ],
+ "outside": {
+  "head": "all.joblib",
+  "tau": 0.5
+ },
+ "heads_sha256": {
+  "all.joblib": "56176b99f26f934de53c38607cf73b358125c70703d3ae0c35cce60f36225325",
+  "fold-00.joblib": "192a0d3d2a068119da3818c9cf96b595e5f57a53325a89d6cd355fefec60f304",
+  "fold-01.joblib": "98315c57d4ad9b719f3c432cb12ab33ce9a7e649a9f457d56741af3f0ccae578",
+  "fold-02.joblib": "6f38a68e09d20a010757b1d4a98c9fbae432bf656f2f9d86127f205d3b0e807f",
+  "fold-03.joblib": "22d76533e32ccbe5ef8161c76549ce4f3ddba09d1d5c309c4f2b1c0f57a3dc5c",
+  "fold-04.joblib": "f0c82df1edd1416bee7af5bcc6761b31b554d262f78eee9fd46fa774edc639ce",
+  "fold-05.joblib": "5f24876cb5130296fa9c619a1483e4d77aed8c5c33914bc8e5d5923b21a35284",
+  "fold-06.joblib": "5d4b00ea9637e4baae505c1aa93e8666e1fcc81c7d53ae4faf1ff2798805f738",
+  "fold-07.joblib": "004501f8a757f1c4dd70f083530b3088f96f46aca0b3bc316bf683ff2cf7c8c9",
+  "fold-08.joblib": "5d54bf0e84c57503b11b8153ba29374e5fc4ef1fb957a70a625d225768a59a11",
+  "fold-09.joblib": "c1ca1b6a96efa22fedbdf92f759c54ad312f3dc4d07fe1ee728c7bcabe59ea98",
+  "fold-10.joblib": "a954807b0842a20ae79bffd9650c62755f4607b8637ecb5d5699e221ed833a16"
+ }
+}

@@ -1,0 +1,18 @@
+# Match data is licensed and never committed.
+data/
+*.mp4
+*_atd.txt
+*_atd.xml
+*_homography.csv
+*_smart_tagging.xml
+
+# Fetched or built locally
+third_party/
+work/
+
+.env
+.env.*
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

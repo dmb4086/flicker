@@ -1,0 +1,14 @@
+diff --git a/dataset.py b/dataset.py
+index 84c32f2..cb2547b 100644
+--- a/dataset.py
++++ b/dataset.py
+@@ -171,7 +171,8 @@ class SoccerWindowDataset(Dataset):
+ 
+                     poss_player = pd.Series(poss_player)
+                     poss_prev = poss_player.ffill().bfill().map(poss_dict).to_numpy()
+-                    poss_next = poss_player.bfill().ffill().map(poss_dict).to_numpy()
++                    # copy=True: pandas 3 copy-on-write returns a read-only view and the in-place fix below fails
++                    poss_next = poss_player.bfill().ffill().map(poss_dict).to_numpy(copy=True)
+                     poss_team = ep_tracking["ball_owning_team_id"].iloc[down_idx] == right_team
+                     poss_team = poss_team.astype(np.int16).to_numpy()
+ 
